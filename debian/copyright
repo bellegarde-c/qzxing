@@ -1,0 +1,548 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: qzxing
+Source: https://github.com/ftylitak/qzxing
+Files-Excluded: ci
+ examples/QZXingLive
+ examples/QZXingDragNDropTest/qtc_packaging
+ examples/QMLBarcodeScanner/*.sis
+ src/zxing/win32
+
+Files: src/zxing/zxing/BarcodeFormat.cpp
+ src/zxing/zxing/BarcodeFormat.h
+ src/zxing/zxing/Binarizer.cpp
+ src/zxing/zxing/Binarizer.h
+ src/zxing/zxing/BinaryBitmap.cpp
+ src/zxing/zxing/BinaryBitmap.h
+ src/zxing/zxing/ChecksumException.cpp
+ src/zxing/zxing/DecodeHints.cpp
+ src/zxing/zxing/DecodeHints.h
+ src/zxing/zxing/Exception.cpp
+ src/zxing/zxing/Exception.h
+ src/zxing/zxing/FormatException.cpp
+ src/zxing/zxing/FormatException.h
+ src/zxing/zxing/IllegalStateException.cpp
+ src/zxing/zxing/InvertedLuminanceSource.cpp
+ src/zxing/zxing/InvertedLuminanceSource.h
+ src/zxing/zxing/LuminanceSource.cpp
+ src/zxing/zxing/LuminanceSource.h
+ src/zxing/zxing/MultiFormatReader.cpp
+ src/zxing/zxing/MultiFormatReader.h
+ src/zxing/zxing/NotFoundException.cpp
+ src/zxing/zxing/Reader.cpp
+ src/zxing/zxing/Reader.h
+ src/zxing/zxing/ReaderException.cpp
+ src/zxing/zxing/ReaderException.h
+ src/zxing/zxing/Result.cpp
+ src/zxing/zxing/Result.h
+ src/zxing/zxing/ResultIO.cpp
+ src/zxing/zxing/ResultMetadata.cpp
+ src/zxing/zxing/ResultMetadata.h
+ src/zxing/zxing/ResultPoint.cpp
+ src/zxing/zxing/ResultPoint.h
+ src/zxing/zxing/ResultPointCallback.cpp
+ src/zxing/zxing/ResultPointCallback.h
+ src/zxing/zxing/UnsupportedEncodingException.cpp
+ src/zxing/zxing/WriterException.cpp
+ src/zxing/zxing/ZXing.h
+ src/zxing/zxing/aztec/AztecDetectorResult.cpp
+ src/zxing/zxing/aztec/AztecDetectorResult.h
+ src/zxing/zxing/aztec/AztecReader.cpp
+ src/zxing/zxing/aztec/AztecReader.h
+ src/zxing/zxing/aztec/decoder/AztecDecoder.cpp
+ src/zxing/zxing/aztec/decoder/Decoder.h
+ src/zxing/zxing/aztec/detector/AztecDetector.cpp
+ src/zxing/zxing/aztec/detector/Detector.h
+ src/zxing/zxing/common/BitArray.cpp
+ src/zxing/zxing/common/BitArray.h
+ src/zxing/zxing/common/BitArrayIO.cpp
+ src/zxing/zxing/common/BitMatrix.cpp
+ src/zxing/zxing/common/BitMatrix.h
+ src/zxing/zxing/common/BitSource.h
+ src/zxing/zxing/common/ByteArray.h
+ src/zxing/zxing/common/CharacterSetECI.cpp
+ src/zxing/zxing/common/CharacterSetECI.h
+ src/zxing/zxing/common/DecoderResult.cpp
+ src/zxing/zxing/common/DecoderResult.h
+ src/zxing/zxing/common/DetectorResult.cpp
+ src/zxing/zxing/common/DetectorResult.h
+ src/zxing/zxing/common/GlobalHistogramBinarizer.cpp
+ src/zxing/zxing/common/GlobalHistogramBinarizer.h
+ src/zxing/zxing/common/GreyscaleLuminanceSource.cpp
+ src/zxing/zxing/common/GreyscaleLuminanceSource.h
+ src/zxing/zxing/common/GreyscaleRotatedLuminanceSource.cpp
+ src/zxing/zxing/common/GreyscaleRotatedLuminanceSource.h
+ src/zxing/zxing/common/GridSampler.cpp
+ src/zxing/zxing/common/GridSampler.h
+ src/zxing/zxing/common/HybridBinarizer.cpp
+ src/zxing/zxing/common/HybridBinarizer.h
+ src/zxing/zxing/common/IllegalArgumentException.h
+ src/zxing/zxing/common/PerspectiveTransform.h
+ src/zxing/zxing/common/Point.h
+ src/zxing/zxing/common/Str.cpp
+ src/zxing/zxing/common/Str.h
+ src/zxing/zxing/common/StringUtils.cpp
+ src/zxing/zxing/common/StringUtils.h
+ src/zxing/zxing/common/detector/JavaMath.h
+ src/zxing/zxing/common/detector/MathUtils.h
+ src/zxing/zxing/common/reedsolomon/GenericGF.cpp
+ src/zxing/zxing/common/reedsolomon/GenericGF.h
+ src/zxing/zxing/common/reedsolomon/GenericGFPoly.cpp
+ src/zxing/zxing/common/reedsolomon/GenericGFPoly.h
+ src/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.h
+ src/zxing/zxing/common/reedsolomon/ReedSolomonException.h
+ src/zxing/zxing/datamatrix/DataMatrixReader.cpp
+ src/zxing/zxing/datamatrix/DataMatrixReader.h
+ src/zxing/zxing/datamatrix/DataMatrixVersion.cpp
+ src/zxing/zxing/datamatrix/Version.h
+ src/zxing/zxing/datamatrix/decoder/BitMatrixParser.h
+ src/zxing/zxing/datamatrix/decoder/DataBlock.h
+ src/zxing/zxing/datamatrix/decoder/DataMatrixBitMatrixParser.cpp
+ src/zxing/zxing/datamatrix/decoder/DataMatrixDataBlock.cpp
+ src/zxing/zxing/datamatrix/decoder/DataMatrixDecodedBitStreamParser.cpp
+ src/zxing/zxing/datamatrix/decoder/DataMatrixDecoder.cpp
+ src/zxing/zxing/datamatrix/decoder/DecodedBitStreamParser.h
+ src/zxing/zxing/datamatrix/decoder/Decoder.h
+ src/zxing/zxing/datamatrix/detector/CornerPoint.h
+ src/zxing/zxing/datamatrix/detector/DataMatrixCornerPoint.cpp
+ src/zxing/zxing/datamatrix/detector/DataMatrixDetector.cpp
+ src/zxing/zxing/datamatrix/detector/Detector.h
+ src/zxing/zxing/multi/ByQuadrantReader.cpp
+ src/zxing/zxing/multi/ByQuadrantReader.h
+ src/zxing/zxing/multi/GenericMultipleBarcodeReader.cpp
+ src/zxing/zxing/multi/GenericMultipleBarcodeReader.h
+ src/zxing/zxing/multi/MultipleBarcodeReader.cpp
+ src/zxing/zxing/multi/MultipleBarcodeReader.h
+ src/zxing/zxing/multi/qrcode/QRCodeMultiReader.cpp
+ src/zxing/zxing/multi/qrcode/QRCodeMultiReader.h
+ src/zxing/zxing/multi/qrcode/detector/MultiDetector.cpp
+ src/zxing/zxing/multi/qrcode/detector/MultiDetector.h
+ src/zxing/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp
+ src/zxing/zxing/multi/qrcode/detector/MultiFinderPatternFinder.h
+ src/zxing/zxing/oned/CodaBarReader.cpp
+ src/zxing/zxing/oned/CodaBarReader.h
+ src/zxing/zxing/oned/Code128Reader.cpp
+ src/zxing/zxing/oned/Code128Reader.h
+ src/zxing/zxing/oned/Code39Reader.cpp
+ src/zxing/zxing/oned/Code39Reader.h
+ src/zxing/zxing/oned/Code93Reader.cpp
+ src/zxing/zxing/oned/Code93Reader.h
+ src/zxing/zxing/oned/EAN13Reader.cpp
+ src/zxing/zxing/oned/EAN13Reader.h
+ src/zxing/zxing/oned/EAN8Reader.cpp
+ src/zxing/zxing/oned/EAN8Reader.h
+ src/zxing/zxing/oned/EANManufacturerOrgSupport.cpp
+ src/zxing/zxing/oned/EANManufacturerOrgSupport.h
+ src/zxing/zxing/oned/ITFReader.cpp
+ src/zxing/zxing/oned/ITFReader.h
+ src/zxing/zxing/oned/MultiFormatOneDReader.cpp
+ src/zxing/zxing/oned/MultiFormatOneDReader.h
+ src/zxing/zxing/oned/MultiFormatUPCEANReader.cpp
+ src/zxing/zxing/oned/MultiFormatUPCEANReader.h
+ src/zxing/zxing/oned/OneDReader.cpp
+ src/zxing/zxing/oned/OneDReader.h
+ src/zxing/zxing/oned/OneDResultPoint.cpp
+ src/zxing/zxing/oned/OneDResultPoint.h
+ src/zxing/zxing/oned/UPCAReader.cpp
+ src/zxing/zxing/oned/UPCAReader.h
+ src/zxing/zxing/oned/UPCEANExtension2Support.cpp
+ src/zxing/zxing/oned/UPCEANExtension2Support.h
+ src/zxing/zxing/oned/UPCEANExtension5Support.cpp
+ src/zxing/zxing/oned/UPCEANExtension5Support.h
+ src/zxing/zxing/oned/UPCEANExtensionSupport.cpp
+ src/zxing/zxing/oned/UPCEANExtensionSupport.h
+ src/zxing/zxing/oned/UPCEANReader.cpp
+ src/zxing/zxing/oned/UPCEANReader.h
+ src/zxing/zxing/oned/UPCEReader.cpp
+ src/zxing/zxing/oned/UPCEReader.h
+ src/zxing/zxing/oned/rss/AbstractRSSReader.h
+ src/zxing/zxing/oned/rss/DataCharacter.h
+ src/zxing/zxing/oned/rss/FinderPattern.h
+ src/zxing/zxing/oned/rss/Pair.h
+ src/zxing/zxing/oned/rss/RSS14Reader.h
+ src/zxing/zxing/oned/rss/RSSUtils.h
+ src/zxing/zxing/oned/rss/expanded/BitArrayBuilder.h
+ src/zxing/zxing/oned/rss/expanded/ExpandedPair.h
+ src/zxing/zxing/oned/rss/expanded/ExpandedRow.h
+ src/zxing/zxing/oned/rss/expanded/RSSExpandedReader.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI013103decoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01320xDecoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01392xDecoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01393xDecoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI013x0x1xDecoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI013x0xDecoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01AndOtherAIs.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01decoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01weightDecoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AbstractExpandedDecoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/AnyAIDecoder.h
+ src/zxing/zxing/oned/rss/expanded/decoders/BlockParsedResult.h
+ src/zxing/zxing/oned/rss/expanded/decoders/CurrentParsingState.h
+ src/zxing/zxing/oned/rss/expanded/decoders/DecodedChar.h
+ src/zxing/zxing/oned/rss/expanded/decoders/DecodedInformation.h
+ src/zxing/zxing/oned/rss/expanded/decoders/DecodedNumeric.h
+ src/zxing/zxing/oned/rss/expanded/decoders/DecodedObject.h
+ src/zxing/zxing/oned/rss/expanded/decoders/FieldParser.h
+ src/zxing/zxing/oned/rss/expanded/decoders/GeneralAppIdDecoder.h
+ src/zxing/zxing/pdf417/PDF417Reader.cpp
+ src/zxing/zxing/pdf417/PDF417Reader.h
+ src/zxing/zxing/pdf417/decoder/BitMatrixParser.h
+ src/zxing/zxing/pdf417/decoder/DecodedBitStreamParser.h
+ src/zxing/zxing/pdf417/decoder/Decoder.h
+ src/zxing/zxing/pdf417/decoder/PDF417BitMatrixParser.cpp
+ src/zxing/zxing/pdf417/decoder/PDF417DecodedBitStreamParser.cpp
+ src/zxing/zxing/pdf417/decoder/PDF417Decoder.cpp
+ src/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.cpp
+ src/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.h
+ src/zxing/zxing/pdf417/decoder/ec/ModulusGF.cpp
+ src/zxing/zxing/pdf417/decoder/ec/ModulusGF.h
+ src/zxing/zxing/pdf417/decoder/ec/ModulusPoly.cpp
+ src/zxing/zxing/pdf417/decoder/ec/ModulusPoly.h
+ src/zxing/zxing/pdf417/detector/Detector.h
+ src/zxing/zxing/pdf417/detector/LinesSampler.cpp
+ src/zxing/zxing/pdf417/detector/LinesSampler.h
+ src/zxing/zxing/pdf417/detector/PDF417Detector.cpp
+ src/zxing/zxing/qrcode/ErrorCorrectionLevel.h
+ src/zxing/zxing/qrcode/FormatInformation.h
+ src/zxing/zxing/qrcode/QRCodeReader.cpp
+ src/zxing/zxing/qrcode/QRCodeReader.h
+ src/zxing/zxing/qrcode/QRErrorCorrectionLevel.cpp
+ src/zxing/zxing/qrcode/QRFormatInformation.cpp
+ src/zxing/zxing/qrcode/QRVersion.cpp
+ src/zxing/zxing/qrcode/Version.h
+ src/zxing/zxing/qrcode/decoder/BitMatrixParser.h
+ src/zxing/zxing/qrcode/decoder/DataBlock.h
+ src/zxing/zxing/qrcode/decoder/DataMask.h
+ src/zxing/zxing/qrcode/decoder/DecodedBitStreamParser.h
+ src/zxing/zxing/qrcode/decoder/Decoder.h
+ src/zxing/zxing/qrcode/decoder/Mode.h
+ src/zxing/zxing/qrcode/decoder/QRBitMatrixParser.cpp
+ src/zxing/zxing/qrcode/decoder/QRDataBlock.cpp
+ src/zxing/zxing/qrcode/decoder/QRDataMask.cpp
+ src/zxing/zxing/qrcode/decoder/QRDecodedBitStreamParser.cpp
+ src/zxing/zxing/qrcode/decoder/QRDecoder.cpp
+ src/zxing/zxing/qrcode/decoder/QRMode.cpp
+ src/zxing/zxing/qrcode/detector/AlignmentPattern.h
+ src/zxing/zxing/qrcode/detector/AlignmentPatternFinder.h
+ src/zxing/zxing/qrcode/detector/Detector.h
+ src/zxing/zxing/qrcode/detector/FinderPattern.h
+ src/zxing/zxing/qrcode/detector/FinderPatternFinder.h
+ src/zxing/zxing/qrcode/detector/FinderPatternInfo.h
+ src/zxing/zxing/qrcode/detector/QRAlignmentPattern.cpp
+ src/zxing/zxing/qrcode/detector/QRAlignmentPatternFinder.cpp
+ src/zxing/zxing/qrcode/detector/QRDetector.cpp
+ src/zxing/zxing/qrcode/detector/QRFinderPattern.cpp
+ src/zxing/zxing/qrcode/detector/QRFinderPatternFinder.cpp
+ src/zxing/zxing/qrcode/detector/QRFinderPatternInfo.cpp
+Copyright: 2008, ZXing authors
+  2008-2011, ZXing authors
+  2008-2012, ZXing authors
+  2009, ZXing authors
+  2010, 2012, ZXing authors
+  2010, ZXing authors
+  2010-2011, ZXing authors
+  2011, ZXing authors
+  2012, ZXing authors
+  2013, ZXing authors
+License: Apache-2.0
+
+Files:
+ .gitignore
+ .gitmodules
+ .lgtm.yml
+ .travis.yml
+ README.md
+ appveyor.yml
+ examples/BarcodeEncoder/BarcodeEncoder.pro
+ examples/BarcodeEncoder/main.cpp
+ examples/BarcodeEncoder/main.qml
+ examples/BarcodeEncoder/qml.qrc
+ examples/BarcodeEncoder/qtquickcontrols2.conf
+ examples/QMLBarcodeScanner/MessageDialog.qml
+ examples/QMLBarcodeScanner/QMLBarcodeReader.pro
+ examples/QMLBarcodeScanner/declarative-camera.qmlproject
+ examples/QMLBarcodeScanner/declarative-camera.qrc
+ examples/QMLBarcodeScanner/images/toolbutton.sci
+ examples/QQrDecoder/readme.md
+ examples/QZXingDragNDropTest/QZXingDragNDropTest.pro
+ examples/QZXingDragNDropTest/droparea.cpp
+ examples/QZXingDragNDropTest/droparea.h
+ examples/QZXingDragNDropTest/main.cpp
+ examples/QZXingDragNDropTest/qml/QZXingDragNDropTest/ToggleButton.qml
+ examples/QZXingDragNDropTest/qml/QZXingDragNDropTest/main_QtQuick1.qml
+ examples/QZXingDragNDropTest/qml/QZXingDragNDropTest/main_QtQuick2.qml
+ src/CMakeLists.txt
+ src/CameraImageWrapper.cpp
+ src/ImageHandler.cpp
+ src/QZXing
+ src/QZXing.cpp
+ src/QZXing.pri
+ src/QZXingFilter.cpp
+ src/QZXingFilterVideoSink.cpp
+ src/QZXingImageProvider.cpp
+ src/README.md
+Copyright: 2012, Nikolaos Ftylitakis <ftylitak@gmail.com>
+License: Apache-2.0
+Comment:
+ No copyright headers in listed files. Assuming QZXing author (Nikolaos
+ Ftylitakis) as copyright holder, assuming same license as for other
+ code files and as hinted in LICENSE file.
+
+Files: src/zxing/bigint/BigInteger.cc
+ src/zxing/bigint/BigInteger.hh
+ src/zxing/bigint/BigIntegerAlgorithms.cc
+ src/zxing/bigint/BigIntegerAlgorithms.hh
+ src/zxing/bigint/BigIntegerLibrary.hh
+ src/zxing/bigint/BigIntegerUtils.cc
+ src/zxing/bigint/BigIntegerUtils.hh
+ src/zxing/bigint/BigUnsigned.cc
+ src/zxing/bigint/BigUnsigned.hh
+ src/zxing/bigint/BigUnsignedInABase.cc
+ src/zxing/bigint/BigUnsignedInABase.hh
+ src/zxing/bigint/CMakeLists.txt
+ src/zxing/bigint/ChangeLog
+ src/zxing/bigint/NumberlikeArray.hh
+ src/zxing/bigint/README
+ src/zxing/zxing/CMakeLists.txt
+ src/zxing/zxing/EncodeHint.cpp
+ src/zxing/zxing/EncodeHint.h
+ src/zxing/zxing/UnsupportedEncodingException.h
+ src/zxing/zxing/WriterException.h
+ src/zxing/zxing/common/Types.h
+ src/zxing/zxing/common/reedsolomon/ReedSolomonEncoder.cpp
+ src/zxing/zxing/common/reedsolomon/ReedSolomonEncoder.h
+ src/zxing/zxing/datamatrix/detector/DataMatrixDetectorException.cpp
+ src/zxing/zxing/datamatrix/detector/DetectorException.h
+ src/zxing/zxing/oned/rss/AbstractRSSReader.cpp
+ src/zxing/zxing/oned/rss/DataCharacter.cpp
+ src/zxing/zxing/oned/rss/FinderPattern.cpp
+ src/zxing/zxing/oned/rss/Pair.cpp
+ src/zxing/zxing/oned/rss/RSS14Reader.cpp
+ src/zxing/zxing/oned/rss/RSSUtils.cpp
+ src/zxing/zxing/oned/rss/expanded/BitArrayBuilder.cpp
+ src/zxing/zxing/oned/rss/expanded/ExpandedPair.cpp
+ src/zxing/zxing/oned/rss/expanded/ExpandedRow.cpp
+ src/zxing/zxing/oned/rss/expanded/RSSExpandedReader.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI013103decoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01320xDecoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01392xDecoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01393xDecoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI013x0x1xDecoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI013x0xDecoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01AndOtherAIs.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01decoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AI01weightDecoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AbstractExpandedDecoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/AnyAIDecoder.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/BlockParsedResult.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/CurrentParsingState.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/DecodedChar.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/DecodedInformation.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/DecodedNumeric.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/DecodedObject.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/FieldParser.cpp
+ src/zxing/zxing/oned/rss/expanded/decoders/GeneralAppIdDecoder.cpp
+ src/zxing/zxing/qrcode/encoder/BlockPair.h
+ src/zxing/zxing/qrcode/encoder/ByteMatrix.cpp
+ src/zxing/zxing/qrcode/encoder/ByteMatrix.h
+ src/zxing/zxing/qrcode/encoder/Encoder.h
+ src/zxing/zxing/qrcode/encoder/MaskUtil.cpp
+ src/zxing/zxing/qrcode/encoder/MaskUtil.h
+ src/zxing/zxing/qrcode/encoder/MatrixUtil.cpp
+ src/zxing/zxing/qrcode/encoder/MatrixUtil.h
+ src/zxing/zxing/qrcode/encoder/QRCode.cpp
+ src/zxing/zxing/qrcode/encoder/QRCode.h
+ src/zxing/zxing/qrcode/encoder/QREncoder.cpp
+ tests/src/QZXingTests/DecodeValidator.cpp
+ tests/src/QZXingTests/DecodeValidator.h
+ tests/src/QZXingTests/EncodeValidator.cpp
+ tests/src/QZXingTests/EncodeValidator.h
+ tests/src/QZXingTests/EncoderStressTest.cpp
+ tests/src/QZXingTests/EncoderStressTest.h
+ tests/src/QZXingTests/QZXingTests.pro
+ tests/src/QZXingTests/TestCase.cpp
+ tests/src/QZXingTests/TestCase.h
+ tests/src/QZXingTests/ValidationStats.cpp
+ tests/src/QZXingTests/ValidationStats.h
+ tests/src/QZXingTests/main.cpp
+ tests/src/QZXingTests/qzxing_decode_2_4_test_results.log
+ tests/src/QZXingTests/qzxing_decode_3_0_alpha_0_1_test_results.log
+ tests/src/QZXingTests/qzxing_decode_3_0_alpha_0_2_test_results.log
+ tests/src/QZXingTests/qzxing_decode_3_0_alpha_0_3_test_results.log
+ tests/src/QZXingTests/zxing/common/BitArrayTests.cpp
+ tests/src/QZXingTests/zxing/common/BitArrayTests.h
+ tests/src/QZXingTests/zxing/common/reedsolomon/ReedSolomonEncoderTests.cpp
+ tests/src/QZXingTests/zxing/common/reedsolomon/ReedSolomonEncoderTests.h
+ tests/src/QZXingTests/zxing/qrcode/encoder/BitVectorTests.cpp
+ tests/src/QZXingTests/zxing/qrcode/encoder/BitVectorTests.h
+ tests/src/QZXingTests/zxing/qrcode/encoder/EncoderTests.cpp
+ tests/src/QZXingTests/zxing/qrcode/encoder/EncoderTests.h
+ tests/src/QZXingTests/zxing/qrcode/encoder/MaskUtilTests.cpp
+ tests/src/QZXingTests/zxing/qrcode/encoder/MaskUtilTests.h
+ tests/src/QZXingTests/zxing/qrcode/encoder/MatrixUtilTests.cpp
+ tests/src/QZXingTests/zxing/qrcode/encoder/MatrixUtilTests.h
+ tests/src/QZXingTests/zxing/qrcode/encoder/QRCodeTests.cpp
+ tests/src/QZXingTests/zxing/qrcode/encoder/QRCodeTests.h
+Copyright: 2008-2013, ZXing authors
+License: Apache-2.0
+Comment:
+ No copyright headers in listed files. Assuming ZXing authors as
+ copyright holders, assuming same license as for other code files.
+
+Files: examples/QMLBarcodeScanner/CameraButton.qml
+ examples/QMLBarcodeScanner/CameraPropertyButton.qml
+ examples/QMLBarcodeScanner/CameraPropertyPopup.qml
+ examples/QMLBarcodeScanner/CaptureControls.qml
+ examples/QMLBarcodeScanner/ExposureCompensationButton.qml
+ examples/QMLBarcodeScanner/FlickableList.qml
+ examples/QMLBarcodeScanner/FocusButton.qml
+ examples/QMLBarcodeScanner/PhotoPreview.qml
+ examples/QMLBarcodeScanner/ZoomControl.qml
+ examples/QMLBarcodeScanner/declarative-camera.qml
+ examples/QMLBarcodeScanner/qmlcamera.cpp
+ examples/QMLBarcodeScanner/images/camera_auto_mode.png
+ examples/QMLBarcodeScanner/images/camera_camera_setting.png
+ examples/QMLBarcodeScanner/images/camera_flash_auto.png
+ examples/QMLBarcodeScanner/images/camera_flash_fill.png
+ examples/QMLBarcodeScanner/images/camera_flash_off.png
+ examples/QMLBarcodeScanner/images/camera_flash_redeye.png
+ examples/QMLBarcodeScanner/images/camera_white_balance_cloudy.png
+ examples/QMLBarcodeScanner/images/camera_white_balance_flourescent.png
+ examples/QMLBarcodeScanner/images/camera_white_balance_incandescent.png
+ examples/QMLBarcodeScanner/images/camera_white_balance_sunny.png
+ examples/QMLBarcodeScanner/images/toolbutton.png
+Copyright: 2010, Nokia Corporation and/or its subsidiary(-ies).
+License: BSD-3-clause
+
+Files: src/CameraImageWrapper.h
+ src/ImageHandler.h
+ src/QZXing-components.pri
+ src/QZXing.h
+ src/QZXing.pro
+ src/QZXingFilter.h
+ src/QZXingFilterVideoSink.h
+ src/QZXingImageProvider.h
+ src/QZXing_global.h
+Copyright: 2011, QZXing authors
+  2017, QZXing authors
+License: Apache-2.0
+Comment:
+ QZxing author mainly is Nikolaos Ftylitakis.
+
+Files: examples/QMLBarcodeScanner/QMLBarcodeReader.rss
+ examples/QZXingDragNDropTest/qmlapplicationviewer/qmlapplicationviewer.cpp
+ examples/QZXingDragNDropTest/qmlapplicationviewer/qmlapplicationviewer.h
+ examples/QZXingDragNDropTest/qmlapplicationviewer/qmlapplicationviewer.pri
+ examples/QZXingDragNDropTest/qtquick2applicationviewer/qtquick2applicationviewer.cpp
+ examples/QZXingDragNDropTest/qtquick2applicationviewer/qtquick2applicationviewer.h
+ examples/QZXingDragNDropTest/qtquick2applicationviewer/qtquick2applicationviewer.pri
+Copyright: 2012, Nikolaos Ftylitakis <ftylitak@gmail.com>
+License: Apache-2.0
+Comment:
+ Generated files.
+ .
+ No copyright headers in listed files. Assuming QZXing author (Nikolaos
+ Ftylitakis) as copyright holder, assuming same license as for other
+ code files and as hinted in LICENSE file.
+
+Files: src/zxing/zxing/common/BitSource.cpp
+ src/zxing/zxing/common/IllegalArgumentException.cpp
+ src/zxing/zxing/common/PerspectiveTransform.cpp
+ src/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.cpp
+ src/zxing/zxing/common/reedsolomon/ReedSolomonException.cpp
+Copyright: 2008, Google UK.
+License: Apache-2.0
+
+Files: src/zxing/zxing/common/detector/MonochromeRectangleDetector.cpp
+ src/zxing/zxing/common/detector/MonochromeRectangleDetector.h
+ src/zxing/zxing/common/detector/WhiteRectangleDetector.cpp
+ src/zxing/zxing/common/detector/WhiteRectangleDetector.h
+Copyright: 2010, y_wmk authors
+License: Apache-2.0
+Comment:
+ In WhiteRectangleDetector.h, there is a typo in the copyright
+ author's name. Assuming "y_wmk authors" here, as well.
+
+Files: src/zxing/zxing/ChecksumException.h
+ src/zxing/zxing/IllegalStateException.h
+ src/zxing/zxing/NotFoundException.h
+Copyright: 20011 ZXing authors
+License: Apache-2.0
+
+Files: tests/src/QZXingTests/backward.hpp
+Copyright: 2013, Google Inc.
+License: Expat
+
+Files: examples/QMLBarcodeScanner/QMLBarcodeReader.svg
+Copyright: 2011, Nokia
+License: BSD-3-clause
+Comment:
+ No license given in .svg file. Assuming license that's used
+ for code files in the QMLBarcodeScanner example.
+
+Files: debian/*
+Copyright: 2013, David Planella <david.planella@ubuntu.com>
+  2022, Mike Gabriel <mike.gabriel@das-netzwerkteam.de
+License: Apache-2.0 or BSD-3-clause or Expat
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+     http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On a Debian system, the license can be found at
+ /usr/share/common-licenses/Apache-2.0
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the
+     distribution.
+   * Neither the name of Nokia Corporation and its Subsidiary(-ies) nor
+     the names of its contributors may be used to endorse or promote
+     products derived from this software without specific prior written
+     permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+ IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+ OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.

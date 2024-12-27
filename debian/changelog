@@ -1,0 +1,26 @@
+qzxing (3.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only upload.
+
+ -- Anton Gladky <gladk@debian.org>  Sat, 22 Oct 2022 10:28:36 +0200
+
+qzxing (3.3.0+dfsg-2) unstable; urgency=medium
+
+  * debian/patches/1001_build-as-shared-lib.patch:
+    + Refresh patch to provide a qmldir file for qml-module-qzxing.
+  * debian/:
+    + Add bin:pkg qml-module-qzxing.
+  * debian/control:
+    + Add shared lib to Depends: of dev:pkg. Drop ${shlibs:Depends}.
+  * debian/libqzxing3.symbols:
+    + Update for these archs: armel, armhf, hppa, hurd-i386, i386, mipsel,
+      powerpc, ppc64, riscv64, s390x, and sh4.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 20 Oct 2022 00:30:38 +0200
+
+qzxing (3.3.0+dfsg-1) unstable; urgency=low
+
+  * Initial upload to Debian. (Closes: #1021626).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 12 Oct 2022 23:18:33 +0200
