@@ -1,0 +1,2 @@
+usr/lib/*/libqzxing*.so
+usr/include/qzxing/*.h
