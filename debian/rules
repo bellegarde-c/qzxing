@@ -1,0 +1,40 @@
+#!/usr/bin/make -f
+
+NULL =
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+%:
+	dh $@ -D src/ --with pkgkde_symbolshelper
+
+override_dh_auto_configure:
+	dh_auto_configure --			\
+	    -DBUILD_SHARED=ON			\
+	    -DQZXING_MULTIMEDIA=ON		\
+	    -DQZXING_USE_QML=ON			\
+	    -DQZXING_USE_ENCODER=ON		\
+	    -DQZXING_MULTIMEDIA=ON		\
+	    -DQZXING_USE_QML=ON			\
+	    -DQZXING_USE_ENCODER=ON		\
+	    -DQZXING_USE_DECODER_QR_CODE=ON	\
+	    -DQZXING_USE_DECODER_1D_BARCODES=ON	\
+	    -DQZXING_USE_DECODER_DATA_MATRIX=ON	\
+	    -DQZXING_USE_DECODER_AZTEC=ON	\
+	    -DQZXING_USE_DECODER_PDF17=ON	\
+	    -DQZXING_USE_DECODER_1D_BARCODES=ON	\
+	    -DQZXING_ON_UBUNTUTOUCH=ON		\
+	    $(NULL)
+
+override_dh_missing:
+	dh_missing --fail-missing
+
+override_dh_auto_clean:
+	-dh_auto_clean -D src/
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --repack --destdir=..
