@@ -20,74 +20,11 @@ Homepage: https://github.com/ftylitak/qzxing
 Vcs-Git: https://salsa.debian.org/ubports-team/qzxing.git
 Vcs-Browser: https://salsa.debian.org/ubports-team/qzxing/
 
-Package: libqzxing3
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-Description: QZXing library
- Qt wrapper for the ZXing 1D/2D barcode image decoder.
- .
- Supports barcode decoding for the following types:
- .
-    UPC-A
-    UPC-E
-    EAN-8
-    EAN-13
-    ITF
-    Code 39
-    Code 93
-    Code 128 (GS1)
-    Codabar
-    QR Code
-    Data Matrix
-    Aztec (beta)
-    PDF 417
- .
- Supports barcode encoding for the following types:
- .
-   QR Code
- .
- This package contains the shared library files.
-
-Package: libqzxing-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends},
-         libqzxing3 (= ${binary:Version}),
-Description: QZXing library (development headers)
- Qt wrapper for the ZXing 1D/2D barcode image decoder.
- .
- Supports barcode decoding for the following types:
- .
-    UPC-A
-    UPC-E
-    EAN-8
-    EAN-13
-    ITF
-    Code 39
-    Code 93
-    Code 128 (GS1)
-    Codabar
-    QR Code
-    Data Matrix
-    Aztec (beta)
-    PDF 417
- .
- Supports barcode encoding for the following types:
- .
-   QR Code
- .
- This package contains the development header files of the QZXing shared
- library.
-
 Package: qml-module-qzxing
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends},
-         qml-module-qtquick2,
-         libqzxing3 (= ${binary:Version}),
+         qml-module-qtquick2
 Description: QZXing QML/QtQuick module
  Qt wrapper for the ZXing 1D/2D barcode image decoder.
  .

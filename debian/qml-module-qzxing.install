@@ -1,1 +1,5 @@
 usr/lib/*/qt5/qml/QZXing/
+usr/lib/*/libqzxing*.so
+usr/lib/*/pkgconfig/QZXing.pc
+usr/include/qzxing/*.h
+usr/lib/*/libqzxing*.so.*

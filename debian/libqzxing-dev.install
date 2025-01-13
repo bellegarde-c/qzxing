@@ -1,3 +1,0 @@
-usr/lib/*/libqzxing*.so
-usr/lib/*/pkgconfig/QZXing.pc
-usr/include/qzxing/*.h
